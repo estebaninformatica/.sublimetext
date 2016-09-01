@@ -1,0 +1,2 @@
+# .sublimetext
+Configuration sublime text
