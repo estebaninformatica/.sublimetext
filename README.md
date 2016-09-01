@@ -21,3 +21,16 @@ preferencias / settings user
 	"translate_tabs_to_spaces": true,
 	"hot_exit": false
 }
+
+keybinding default user
+
+[
+  { "keys": ["f1"], "command": "reveal_in_side_bar"},
+  { "keys": ["f2"], "command": "toggle_comment"},
+  { "keys": ["ctrl+i"], "command": "reindent" },
+  { "keys": ["f3"], "command": "expand_tabs" },
+  {
+    "keys": ["f4"], "command": "align_tab",
+    "args" : {"live_preview" : true}
+  }
+]
