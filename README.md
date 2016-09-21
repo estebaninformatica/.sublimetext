@@ -32,5 +32,8 @@ keybinding default user
   {
     "keys": ["f4"], "command": "align_tab",
     "args" : {"live_preview" : true}
-  }
+  },
+  { "keys": ["f5+up"], "command": "select_lines", "args": {"forward": false} },
+  { "keys": ["f5+down"], "command": "select_lines", "args": {"forward": true} },
 ]
+
